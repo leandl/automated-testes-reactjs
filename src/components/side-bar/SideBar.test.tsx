@@ -11,7 +11,7 @@ test('render items in SideBar', () => {
       name: "test2",
       href: "/test2"
     }
-  ]
+  ];
 
   render(<SideBar items={sideBaritems } />);
   const anchorElements = screen.getAllByRole("navigation");
